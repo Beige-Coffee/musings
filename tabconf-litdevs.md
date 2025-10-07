@@ -51,6 +51,7 @@ Splicing
 ----
 #### BOLT
 - [Channel Splicing (feature 62/63)](https://github.com/lightning/bolts/pull/1160)
+- [BOLT 2: quiescence protocol (feature 34/35) option_quiesce](https://github.com/lightning/bolts/pull/869)
 
 #### Implementations
 - Core Lightning
