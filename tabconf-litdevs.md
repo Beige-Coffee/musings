@@ -54,9 +54,22 @@ Splicing
 
 #### Implementations
 - Core Lightning
+  - [Splice: Interop Final (probably) with Eclair](https://github.com/ElementsProject/lightning/pull/8021)
+  - [splicing: Adds the features needed to enable collaborative splicing & resizing of active channels](https://github.com/ElementsProject/lightning/pull/6253)
 - Eclair
+  - [Simple taproot channels & splicing](https://github.com/ACINQ/eclair/pull/3103)
+  - [Send channel_announcement for splice transactions on public channels](https://github.com/ACINQ/eclair/pull/2968)
+  - [Implement on-the-fly funding based on splicing and liquidity ads](https://github.com/ACINQ/eclair/pull/2861)
+  - [Add support for RBF-ing splice transactions](https://github.com/ACINQ/eclair/pull/2925)
+  - [Add quiescence negotiation](https://github.com/ACINQ/eclair/pull/2680)
+  - [Add support for splices](https://github.com/ACINQ/eclair/pull/2584)
 - LDK
+  - [Add splice-out support](https://github.com/lightningdevkit/rust-lightning/pull/3979)
+  - [Simplify Quiescence and prepare for splice integration](https://github.com/lightningdevkit/rust-lightning/pull/4007)
+  - [Add splice-out support](https://github.com/lightningdevkit/rust-lightning/pull/3979)
+  - [Support scalar tweak to rotate holder funding key during splicing](https://github.com/lightningdevkit/rust-lightning/pull/3624)
 - LND
+  - [Implement Quiescence Protocol](https://github.com/lightningnetwork/lnd/pull/8270)
 
 Network Graph
 ----
