@@ -46,7 +46,7 @@ Simple Taproot Channels
 - LND
   - [Release Notes 0.17.0](https://github.com/lightningnetwork/lnd/blob/master/docs/release-notes/release-notes-0.17.0.md)
  
-(Taproot) Gossip V2
+(Taproot) Gossip V1.75
 ----
 #### BOLT
 - [extension-bolt: taproot gossip (features 32/33)](https://github.com/lightning/bolts/pull/1059)
