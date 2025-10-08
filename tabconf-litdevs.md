@@ -30,10 +30,9 @@ Zero-Fee Commitments
   - [[feature]/sweeeper: add P2A + Ephemeral Dust awareness to BumpFee command](https://github.com/lightningnetwork/lnd/issues/9778)
   - [[feature]: Zero Fee Commitments](https://github.com/lightningnetwork/lnd/issues/10201)
 
-Taproot
+Simple Taproot Channels
 ----
 #### BOLT
-- [extension-bolt: simple taproot channels (feature 80/81)](https://github.com/lightning/bolts/pull/995)
 - [extension-bolt: taproot gossip (features 32/33)](https://github.com/lightning/bolts/pull/1059)
 #### Implementations
 - Core Lightning
@@ -46,6 +45,18 @@ Taproot
     - Is this still acurrate?
 - LND
   - [Release Notes 0.17.0](https://github.com/lightningnetwork/lnd/blob/master/docs/release-notes/release-notes-0.17.0.md)
+ 
+(Taproot) Gossip V2
+----
+#### BOLT
+- [extension-bolt: taproot gossip (features 32/33)](https://github.com/lightning/bolts/pull/1059)
+#### Implementations
+- Core Lightning
+- Eclair
+- LDK
+- LND
+  - [[epic]: Gossip 1.75](https://github.com/lightningnetwork/lnd/issues/7961)
+
 
 Splicing
 ----
