@@ -95,6 +95,7 @@ Async Payments
   - [Support paying static invoices](https://github.com/lightningdevkit/rust-lightning/pull/3140)
   - [Async recipient-side of static invoice server](https://github.com/lightningdevkit/rust-lightning/pull/3618)
   - [Static invoice server](https://github.com/lightningdevkit/rust-lightning/pull/3628)
+  - [Async payments followups](https://github.com/lightningdevkit/rust-lightning/issues/4135)
 - LND
 
 
