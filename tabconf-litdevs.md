@@ -78,6 +78,26 @@ Trampoline Routing
 - Electrum
   - [4.1.0 RELEASE-NOTES](https://github.com/spesmilo/electrum/blob/4.1.0/RELEASE-NOTES)
 
+
+Async Payments
+----
+#### BOLT
+- [Support async payments in BOLT 12](https://github.com/lightning/bolts/pull/1149)
+#### Implementations
+- Core Lightning
+- Eclair
+  - [Add initial support for async payment trampoline relay](https://github.com/ACINQ/eclair/pull/2435)
+  - [Add PeerReadyNotifier actor](https://github.com/ACINQ/eclair/pull/2464)
+  - [Wake up wallet nodes before relaying messages or payments](https://github.com/ACINQ/eclair/pull/2865)
+- LDK
+  - [Support intercepting onion messages for offline peers](https://github.com/lightningdevkit/rust-lightning/pull/2973)
+  - [Async payments message encoding and prefactor](https://github.com/lightningdevkit/rust-lightning/pull/3125)
+  - [Support paying static invoices](https://github.com/lightningdevkit/rust-lightning/pull/3140)
+  - [Async recipient-side of static invoice server](https://github.com/lightningdevkit/rust-lightning/pull/3618)
+  - [Static invoice server](https://github.com/lightningdevkit/rust-lightning/pull/3628)
+- LND
+
+
 Splicing
 ----
 #### BOLT
