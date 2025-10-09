@@ -56,7 +56,27 @@ Simple Taproot Channels
 - LDK
 - LND
   - [[epic]: Gossip 1.75](https://github.com/lightningnetwork/lnd/issues/7961)
+ 
 
+Trampoline Routing
+----
+#### BOLT
+- [Trampoline Routing (Feature 56/57)](https://github.com/lightning/bolts/pull/829)
+- [Trampoline onion format (Feature 56/57)](https://github.com/lightning/bolts/pull/836)
+#### Implementations
+- Core Lightning
+- Eclair
+  - [Add trampoline onion support](https://github.com/ACINQ/eclair/pull/1209)
+  - [Add initial support for async payment trampoline relay](https://github.com/ACINQ/eclair/pull/2435)
+  - [Variable size for trampoline onion](https://github.com/ACINQ/eclair/pull/2810)
+  - [Trampoline to blinded](https://github.com/ACINQ/eclair/pull/2811)
+  - [Prepare attribution data for trampoline payments](https://github.com/ACINQ/eclair/pull/3109)
+- LDK
+  - [Trampoline](https://github.com/lightningdevkit/rust-lightning/issues/2299)
+- LND
+  - [routing+htlcswitch: implement the major variants of Trampoline routing](https://github.com/lightningnetwork/lnd/issues/6689)
+- Electrum
+  - [4.1.0 RELEASE-NOTES](https://github.com/spesmilo/electrum/blob/4.1.0/RELEASE-NOTES)
 
 Splicing
 ----
