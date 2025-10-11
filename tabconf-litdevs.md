@@ -147,10 +147,14 @@ BOLT 12
 
 #### Implementations
 - Core Lightning
+  - [Offers: Not just for breakfast anymore!](https://github.com/ElementsProject/lightning/pull/7833)
 - Eclair
+  - [Eclair v0.11.0](https://github.com/ACINQ/eclair/releases/tag/v0.11.0)
 - LDK
+  - [BOLT12 Offers Tracking Issue](https://github.com/lightningdevkit/rust-lightning/issues/1970)
+  - [BOLT12 Has Arrived](https://lightningdevkit.org/blog/bolt12-has-arrived/)
 - LND
-
+  - LND does not support yet, but you run run [LNDK](https://github.com/lndk-org/lndk) alongside LND to support BOLT 12 
 
 Lightning Service Provider (LSP
 ----
