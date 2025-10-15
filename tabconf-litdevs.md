@@ -152,7 +152,6 @@ News
 - [BOLT 12](https://github.com/t-bast/bolts/blob/master/12-offer-encoding.md)
 - [blip-0042: Bolt 12 Contacts](https://github.com/lightning/blips/pull/42)
 - [BOLT 12: re-add recurrence support](https://github.com/lightning/bolts/pull/1240)
-- [BOLT 12: Inconsistent bech32 padding validation across implementations](https://github.com/lightning/bolts/issues/1281)
 - [Support async payments in BOLT 12](https://github.com/lightning/bolts/pull/1149)
 #### Implementations
 - Core Lightning
