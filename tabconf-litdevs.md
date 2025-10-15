@@ -100,7 +100,7 @@ News
 - Rusty's 2022 Gossip V2 Proposal: https://diyhpl.us/~bryan/irc/bitcoin/bitcoin-dev/linuxfoundation-pipermail/lightning-dev/2022-February/003470.txt
 - Make Gossip Suck Less: https://delvingbitcoin.org/t/ln-summit-2024-notes-summary-commentary/1198#p-3370-make-gossip-suck-less-9
 
-## Hybrid Channel Hamming
+## Hybrid Channel Jamming
 #### Related Docs
 - [Project Updates: Hybrid Channel Jamming Mitigation](https://github.com/lightning/bolts/issues/1218)
 - [Bitcoin Optech: Channel Jamming](https://bitcoinops.org/en/topics/channel-jamming-attacks/)
