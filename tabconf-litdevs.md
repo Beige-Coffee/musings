@@ -103,8 +103,9 @@ News
 ## Hybrid Channel Jamming
 #### Related Docs
 - [Project Updates: Hybrid Channel Jamming Mitigation](https://github.com/lightning/bolts/issues/1218)
-- [Bitcoin Optech: Channel Jamming](https://bitcoinops.org/en/topics/channel-jamming-attacks/)
 - [Warnet - Wrath Of Nalo](https://github.com/bitcoin-dev-project/wrath-of-nalo)
+- [Bitcoin Optech: Channel Jamming](https://bitcoinops.org/en/topics/channel-jamming-attacks/)
+- [Hybrid Mitigation for Channel Jamming](https://gist.github.com/carlaKC/02251cd061260bbb149f361c65fc9f2f)
 #### Implementations
 - LND: [Add Experimental Endorsement Signalling](https://github.com/lightningnetwork/lnd/pull/8390)
 - Eclair: [Add HTLC endorsement/confidence](https://github.com/ACINQ/eclair/pull/2884)
