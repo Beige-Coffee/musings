@@ -26,6 +26,7 @@ News
 #### Implementations
 - Core Lightning
 - Eclair
+  - [Dual-funding for taproot channels](https://github.com/ACINQ/eclair/pull/3103)
 - LDK
 - LND
 
@@ -169,8 +170,3 @@ News
 - LND
   - LND does not support yet, but you run run [LNDK](https://github.com/lndk-org/lndk) alongside LND to support BOLT 12 
 
-#### Implementations
-- Core Lightning
-- Eclair
-- LDK
-- LND
