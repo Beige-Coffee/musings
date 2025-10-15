@@ -18,7 +18,7 @@ News
 - [Lightning Specification Meeting 2025/10/06](https://github.com/lightning/bolts/issues/1293)
 
 ## Dual-Funding
-#### BOLT
+#### Related Docs
 - [BOLT 2](https://github.com/t-bast/bolts/blob/master/02-peer-protocol.md)
 - [Dual funding reconnect commit_sig retransmission](https://github.com/lightning/bolts/pull/1289)
 - [Allow non-initiator to RBF dual-funded channels](https://github.com/lightning/bolts/pull/1236)
@@ -31,7 +31,7 @@ News
 - LND
 
 ## Splicing
-#### BOLT
+#### Related Docs
 - [Channel Splicing (feature 62/63)](https://github.com/lightning/bolts/pull/1160)
 - [BOLT 2: quiescence protocol (feature 34/35) option_quiesce](https://github.com/lightning/bolts/pull/869)
 #### Implementations
@@ -55,7 +55,7 @@ News
 
  
 ## Lightning Service Provider (LSP
-#### BOLT
+#### Related Docs
 - [Extensible Liquidity Ads)](https://github.com/lightning/bolts/pull/1153)
 - [LSP Spec Transport Layer](https://github.com/lightning/blips/blob/master/blip-0050.md)
 - [LSPS1: Channel Requests](https://github.com/lightning/blips/blob/master/blip-0051.md)
@@ -70,53 +70,48 @@ News
 
 
 ## Zero-Fee Commitments
-#### BOLT
-- [Zero-fee commitments using v3 transactions (feature 40/41) ](https://github.com/lightning/bolts/pull/1228)
+#### Related Docs
+- TRUC BIP: https://github.com/bitcoin/bips/blob/master/bip-0431.mediawiki
+- P2A BIP: https://github.com/bitcoin/bips/pull/1982
+- BOLT PR: https://github.com/lightning/bolts/pull/1228
 #### Implementations
-- Core Lightning
-- Eclair
-- LDK
-  - [LDK High Level Tracker](https://github.com/lightningdevkit/rust-lightning/issues/3789)
-- LND
-  - [[feature]/sweeeper: add P2A + Ephemeral Dust awareness to BumpFee command](https://github.com/lightningnetwork/lnd/issues/9778)
-  - [[feature]: Zero Fee Commitments](https://github.com/lightningnetwork/lnd/issues/10201)
+- Guide for Wallets Using V28.0: https://bitcoinops.org/en/bitcoin-core-28-wallet-integration-guide/
+- Pay to Anchor and Ephemeral Dust: https://bitcoin.stackexchange.com/questions/126098/pay-to-anchor-and-ephemeral-dust
+- LDK Tracking Issue: https://github.com/lightningdevkit/rust-lightning/issues/3789
+- LND Feature Request: https://github.com/lightningnetwork/lnd/issues/10201
 
 ## Simple Taproot Channels
-#### BOLT
-- [extension-bolt: taproot gossip (features 32/33)](https://github.com/lightning/bolts/pull/1059)
+#### Related Docs
+- Main BOLT PR: https://github.com/lightning/bolts/pull/995
 #### Implementations
-- Core Lightning
-- Eclair
-  - [Eclair v0.13.0 release contains initial implementation of taproot channels](https://github.com/ACINQ/eclair/releases/tag/v0.13.0)
-  - [Roadmap for new commitment formats and old commitment formats clean-up](https://github.com/ACINQ/eclair/issues/3059)
-  - [Simple taproot channels](https://github.com/ACINQ/eclair/pull/3103)
-- LDK
-  - [High Level Tracker](https://github.com/lightningdevkit/rust-lightning/issues/2295)
-- LND
-  - [Release Notes 0.17.0](https://github.com/lightningnetwork/lnd/blob/master/docs/release-notes/release-notes-0.17.0.md)
+- Some Interop between LND and Eclair: https://github.com/lightning/bolts/pull/995#pullrequestreview-3062995497
+- "Bring Taproot Channels Into Phoenix": https://github.com/ACINQ/phoenix/pull/758
+- lightning-kmp PR: https://github.com/ACINQ/lightning-kmp/pull/805
+- eclair PR: https://github.com/ACINQ/eclair/pull/3103
+- LND v17.0 release: https://github.com/lightningnetwork/lnd/releases/tag/v0.17.0-beta
+- LND v17.0 release notes: https://github.com/lightningnetwork/lnd/blob/master/docs/release-notes/release-notes-0.17.0.md
  
 ## (Taproot) Gossip V1.75
-#### BOLT
-- [extension-bolt: taproot gossip (features 32/33)](https://github.com/lightning/bolts/pull/1059)
+#### Related Docs
+- Main Proposal: https://delvingbitcoin.org/t/updates-to-the-gossip-1-75-proposal-post-ln-summit-meeting/1202
+- Companion Bolt PR: https://github.com/lightning/bolts/pull/1059
 #### Implementations
-- Core Lightning
-- Eclair
-- LDK
-- LND
-  - [[epic]: Gossip 1.75](https://github.com/lightningnetwork/lnd/issues/7961)
- 
+- ZK-gossip extension: https://delvingbitcoin.org/t/zk-gossip-for-lightning-channel-announcements/1407/29
+- Rusty's 2022 Gossip V2 Proposal: https://diyhpl.us/~bryan/irc/bitcoin/bitcoin-dev/linuxfoundation-pipermail/lightning-dev/2022-February/003470.txt
+- Make Gossip Suck Less: https://delvingbitcoin.org/t/ln-summit-2024-notes-summary-commentary/1198#p-3370-make-gossip-suck-less-9
 
 ## Hybrid Channel Hamming
-#### BOLT
+#### Related Docs
 - [Project Updates: Hybrid Channel Jamming Mitigation](https://github.com/lightning/bolts/issues/1218)
-
+- [Bitcoin Optech: Channel Jamming](https://bitcoinops.org/en/topics/channel-jamming-attacks/)
 #### Implementations
 - LND: [Add Experimental Endorsement Signalling](https://github.com/lightningnetwork/lnd/pull/8390)
 - Eclair: [Add HTLC endorsement/confidence](https://github.com/ACINQ/eclair/pull/2884)
 
 ## Async Payments
-#### BOLT
+#### Related Docs
 - [Support async payments in BOLT 12](https://github.com/lightning/bolts/pull/1149)
+- [Val Wallace Async Payment Presentation (skip to 2:56:00)](https://web.mit.edu/webcast/bitcoin-expo-s24/)
 #### Implementations
 - Core Lightning
 - Eclair
@@ -133,7 +128,7 @@ News
 - LND
 
 ## Trampoline Routing
-#### BOLT
+#### Related Docs
 - [Trampoline Routing (Feature 56/57)](https://github.com/lightning/bolts/pull/829)
 - [Trampoline onion format (Feature 56/57)](https://github.com/lightning/bolts/pull/836)
 #### Implementations
@@ -153,7 +148,7 @@ News
 
 
 ## BOLT 12
-#### BOLT
+#### Related Docs
 - [BOLT 12](https://github.com/t-bast/bolts/blob/master/12-offer-encoding.md)
 - [blip-0042: Bolt 12 Contacts](https://github.com/lightning/blips/pull/42)
 - [BOLT 12: re-add recurrence support](https://github.com/lightning/bolts/pull/1240)
