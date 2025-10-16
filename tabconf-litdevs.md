@@ -22,13 +22,7 @@ News
 - [BOLT 2](https://github.com/t-bast/bolts/blob/master/02-peer-protocol.md)
 - [Dual funding reconnect commit_sig retransmission](https://github.com/lightning/bolts/pull/1289)
 - [Allow non-initiator to RBF dual-funded channels](https://github.com/lightning/bolts/pull/1236)
-
-#### Implementations
-- Core Lightning
-- Eclair
-  - [Dual-funding for taproot channels](https://github.com/ACINQ/eclair/pull/3103)
-- LDK
-- LND
+- [Bitcoin Optech Dual Funding](https://bitcoinops.org/en/topics/dual-funding/)
 
 ## Splicing
 #### Related Docs
@@ -61,12 +55,6 @@ News
 - [LSPS1: Channel Requests](https://github.com/lightning/blips/blob/master/blip-0051.md)
 - [LSPS2: JIT Channel Negotiation](https://github.com/lightning/blips/blob/master/blip-0052.md)
 - [LSPS5: Webhook Registration](https://github.com/lightning/blips/blob/master/blip-0055.md)
-
-#### Implementations
-- Core Lightning
-- Eclair
-- LDK
-- LND
 
 
 ## Zero-Fee Commitments
