@@ -44,10 +44,14 @@ Noteworthy PRs
 ...
 
 ### [eclair](https://github.com/ACINQ/eclair)
-...
+- [Allow high remote dust_limit_satoshis](https://github.com/ACINQ/eclair/pull/3215)
+- [Use 73 bytes der-encoded signatures in weight estimation](https://github.com/ACINQ/eclair/pull/3210)
+- [Allow aborting liquidity purchases after signing](https://github.com/ACINQ/eclair/pull/3206)
+- [Eclair v0.13.1 release](https://github.com/ACINQ/eclair/pull/3196)
 
 ### [LDK](https://github.com/lightningdevkit/rust-lightning)
 ...
 
 ### [lnd](https://github.com/lightningnetwork/lnd)
-...
+- [Don't fail on invalid extra tlv data when decoding a payment](https://github.com/lightningnetwork/lnd/pull/10334)
+- [lnwire: add missing Gossip 1.75 fields and message](https://github.com/lightningnetwork/lnd/pull/10232)
