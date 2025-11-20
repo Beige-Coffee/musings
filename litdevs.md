@@ -35,7 +35,7 @@ Released
 
 bLIPs & BOLTs
 -------------
-- Lightning Specification Meeting 2025/11/17](https://github.com/lightning/bolts/issues/1296)
+- [Lightning Specification Meeting 2025/11/17](https://github.com/lightning/bolts/issues/1296)
 
 Noteworthy PRs
 --------------
