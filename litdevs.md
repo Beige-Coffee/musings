@@ -17,6 +17,7 @@ Privacy Tech That Accepts Lightning
 ----
 - [Obscura VPN](https://obscura.net/)
 - [Kagi Search](https://kagi.com/)
+- Others?
 
 News
 ----
